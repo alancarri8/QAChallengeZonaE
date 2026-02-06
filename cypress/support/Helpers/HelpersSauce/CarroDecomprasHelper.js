@@ -1,4 +1,4 @@
-import Checkout from "../../Pages/Checkout";
+import Checkout from "../../../Pages/SauceDemo/Checkout";
 import { faker } from "@faker-js/faker";
 
 const checkout = new Checkout();

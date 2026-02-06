@@ -1,4 +1,4 @@
-import LoginPage from "../../Pages/LoginPage";
+import LoginPage from "../../../Pages/SauceDemo/LoginPage";
 const loginPage = new LoginPage();
 
 class LoginHelper {

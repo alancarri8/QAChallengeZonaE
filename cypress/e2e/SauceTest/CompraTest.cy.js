@@ -1,8 +1,8 @@
-import loginHelper from "../support/Helpers/LoginHelper";
-import Inventory from "../Pages/Inventario";
-import CartBuy from "../Pages/CarroDeCompras";
-import Checkout from "../Pages/Checkout";
-import CarroDecomprasHelper from "../support/Helpers/CarroDecomprasHelper";
+import loginHelper from "../../support/Helpers/HelpersSauce/LoginHelper";
+import Inventory from "../../Pages/SauceDemo/Inventario";
+import CartBuy from "../../Pages/SauceDemo/CarroDeCompras";
+import Checkout from "../../Pages/SauceDemo/Checkout";
+import CarroDecomprasHelper from "../../support/Helpers/HelpersSauce/CarroDecomprasHelper";
 
 const inventoryPage = new Inventory();
 const carroDecompras = new CartBuy();

@@ -1,4 +1,4 @@
-import loginHelper from "../support/Helpers/LoginHelper";
+import loginHelper from "../../support/Helpers/HelpersSauce/LoginHelper";
 import LoginPage from "../Pages/LoginPage";
 
 const login = new LoginPage();
