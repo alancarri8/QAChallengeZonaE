@@ -3,9 +3,9 @@ const loginPage = new LoginPage();
 
 class LoginHelper {
   login() {
-    const url = Cypress.env("BASE_URL");
-    const username = Cypress.env("USERVALIDO");
-    const password = Cypress.env("PASSVALIDO");
+    const url = Cypress.env("BASE_URLZ");
+    const username = Cypress.env("USERZ");
+    const password = Cypress.env("PASSZ");
 
     cy.visit(url);
 
