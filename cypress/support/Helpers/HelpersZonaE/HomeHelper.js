@@ -1,4 +1,4 @@
-import HomePage from "../../../Pages/ZonaE/HomePage.cy";
+import HomePage from "../../../Pages/ZonaE/HomePage";
 const homePage = new HomePage();
 
 class HomeHelper {
