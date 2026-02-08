@@ -24,4 +24,6 @@ Ubicación del reporte: cypress/reports/html/index.html
 
 Las evidencias se almacenan en cypress/screenshots/
 
+En la carpeta ChallengeDocs se encuentran realizados los puntos 1, 2,3 y 5
+
 ```
