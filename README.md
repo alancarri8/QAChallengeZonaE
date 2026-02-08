@@ -20,6 +20,11 @@ Repositorio que contiene un framework pruebas de UI realizado con **Cypress/Java
 Comando para ejecutar pruebas
 npm run cy:run:test
 
+```
+
+## Archivos
+
+```
 Ubicación del reporte: cypress/reports/html/index.html
 
 Las evidencias se almacenan en cypress/screenshots/
