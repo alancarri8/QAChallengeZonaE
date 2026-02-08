@@ -1,5 +1,5 @@
 import loginHelper from "../../support/Helpers/HelpersSauce/LoginHelper";
-import LoginPage from "../Pages/LoginPage";
+import LoginPage from "../../Pages/SauceDemo/LoginPage";
 
 const login = new LoginPage();
 

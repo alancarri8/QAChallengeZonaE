@@ -1,7 +1,11 @@
 {
+  "scripts": {
+  "cy:run:chrome": "cypress run  && npm run report:generate && npm run report:open"
+},
   "devDependencies": {
     "@faker-js/faker": "^10.2.0",
-    "cypress": "^15.10.0"
+    "cypress": "^15.10.0",
+    "cypress-mochawesome-reporter": "^4.0.2"
   },
   "dependencies": {
     "dotenv": "^17.2.4"

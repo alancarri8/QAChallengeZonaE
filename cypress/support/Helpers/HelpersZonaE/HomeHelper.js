@@ -12,7 +12,7 @@ class HomeHelper {
     homePage.clickButtonIngresar();
     homePage.typeInputUser(usernameZ);
     homePage.typeInputPass(passwordZ);
-    homePage.clickButtonIniciarSesión();
+    homePage.clickButtonIniciarSesion();
   }
 }
 

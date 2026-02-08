@@ -5,6 +5,11 @@ require("dotenv").config({
 
 module.exports = defineConfig({
   allowCypressEnv: true,
+  reporter: "cypress-mochawesome-reporter",
+  reporterOptions: {
+    reportPageTitle: "Challenge ZE",
+    embeddedScreenshots: true,
+  },
 
   e2e: {
     setupNodeEvents(on, config) {
@@ -15,6 +20,7 @@ module.exports = defineConfig({
       config.env.USERZ = process.env.USERZ;
       config.env.PASSZ = process.env.PASSZ;
 
+      require("cypress-mochawesome-reporter/plugin")(on);
       return config;
     },
   },
