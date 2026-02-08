@@ -1,6 +1,8 @@
 {
-  "scripts": {
-  "cy:run:chrome": "cypress run  && npm run report:generate && npm run report:open"
+"scripts": {
+  "cy:run:chrome": "cypress run -b chrome",
+  "cy:open:report": "start cypress/reports/html/index.html",
+  "cy:run:test": "npm run cy:run:chrome && npm run cy:open:report"
 },
   "devDependencies": {
     "@faker-js/faker": "^10.2.0",

@@ -9,5 +9,6 @@ describe("Inicio de sesión", () => {
 
     HomeHelper.login();
     homePage.validateUserName(usuarioLogueado);
+    cy.screenshot();
   });
 });

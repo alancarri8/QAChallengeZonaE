@@ -7,5 +7,6 @@ describe("Validación de login", () => {
   it("Validar que el usuario se pueda loguear correctamente", () => {
     loginHelper.login();
     login.validateURL().should("include", "/inventory.html");
+    cy.screenshot();
   });
 });

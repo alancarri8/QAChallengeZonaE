@@ -15,6 +15,7 @@ describe("Locales", () => {
     localPage.seleccionarDropDown("Localidad", localidad);
     localPage.locales().then((localesUI) => {
       expect(localesUI).to.deep.equal(sucursalesEsperadas);
+      cy.screenshot();
     });
   });
 });

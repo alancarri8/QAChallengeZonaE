@@ -12,6 +12,10 @@ beforeEach(() => {
   loginHelper.login();
 });
 
+afterEach(() => {
+  cy.screenshot();
+});
+
 describe("Validación de eliminado del producto, y compra de un producto", () => {
   it("Validar que el usuario pueda eliminar un producto del carro de compras", () => {
     inventoryPage.clickAdd();
